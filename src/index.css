@@ -6,13 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
 }
-
-
 .header{
   width: 100%;
   min-height: 100vh;
@@ -45,6 +41,10 @@ code {
 @media (max-width: 768px){
   .bg-dark{
       background-color: transparent!important;
+  }
+  .seccion
+  {
+    margin: 5vh;
   }
 }
 
@@ -110,11 +110,17 @@ code {
 {
   height: 100vh;
   width: 100vw;
-  background-image: linear-gradient(rgb(42, 41, 55, .8), rgba(255,255,255, .05))!important;
+  background-image: linear-gradient(rgba(0, 32, 95, 0.8), rgba(255,255,255, .05))!important;
 }
 
 .data-slide
 {
-  height: 80vh;
-  width: 80vw;
+  height: 100vh;
+  width: 100vw;
+  padding-bottom: 10vh;
+}
+
+.seccion
+{
+  margin: 10vh;
 }
