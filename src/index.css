@@ -123,4 +123,27 @@ html {
 .seccion
 {
   margin: 10vh;
+  color: #555;
+}
+.quienes
+{
+  color: #555;
+}
+
+.galeria{
+	display: flex;
+  margin: 10vh;
+  height: 50vh;
+}
+.galeria img{
+	width: 0px;
+	flex-grow: 1;
+	object-fit: cover;
+	filter: brightness(80%);
+	transition: .7s ease;
+}
+.galeria img:hover{
+	width: 450px;
+	opacity: 1;
+	filter: brightness(130%)
 }
