@@ -123,6 +123,7 @@ html {
 .seccion
 {
   margin: 10vh;
+  margin-bottom: 5vh;
   color: #555;
 }
 .quienes
@@ -146,4 +147,9 @@ html {
 	width: 450px;
 	opacity: 1;
 	filter: brightness(130%)
+}
+
+.card
+{
+  margin-bottom: 5px;
 }
